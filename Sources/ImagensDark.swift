@@ -7,9 +7,14 @@
 
 import Foundation
 
+
+
+
+
 func generateImageDark01(descricao: String) -> String {
     return
           """
+      
                               |  |
                      \\      //  \\       \\
                    // \\     )|__|(      //\\
@@ -23,12 +28,14 @@ func generateImageDark01(descricao: String) -> String {
                |  //\\ //      \\      \\ //\\  |
                | //   V         ))       V   \\ |
                |//     `       //        '    \\|
+      
       """
 }
 
 func generateImageDark02(descricao: String) -> String {
     return
           """
+      
                                        ___________
                                       [___________]
                                        {=========}
@@ -41,6 +48,7 @@ func generateImageDark02(descricao: String) -> String {
                  // |  \\// |  \\  |_________________|
                  \\  | / \\  | /   |                 |
                   `'--'   `'--'    '-----------------'
+      
       """
     
 }
@@ -48,6 +56,7 @@ func generateImageDark02(descricao: String) -> String {
 func generateImageDark03(descricao: String) -> String {
     return
           """
+      
        ____  _____ ___________________________________________________ _____
       |___  |    //       :-...__                       __...-:       \\    | | _ |
       |     |   //        :  `.  ~~--._           _.--~~  .'  :        \\   | |V V|
@@ -73,6 +82,7 @@ func generateImageDark03(descricao: String) -> String {
       |____ |\\                 .'         ___         `.                 //|
             | \\                :      .--~   ~--.      :                // |
             |__\\_______________`.__.-~___________~-.__.'_______________//__|
+      
       """
     
 }
@@ -80,6 +90,7 @@ func generateImageDark03(descricao: String) -> String {
 func generateImageDark04(descricao: String) -> String {
     return
  """
+
             ⠀⠀⠀ ⣤⣤⣄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
       ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠻⣿⣿⣿⡄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
       ⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠙⣯⣿⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
@@ -119,6 +130,7 @@ func generateImageDark04(descricao: String) -> String {
 func generateImageDark05(descricao: String) -> String {
     return
           """
+     
                                                 __             _,-"~^"-.
                                               _// )      _,-"~`         `.
                                             ." ( /`"-,-"`                 ;   \(descricao)⠀
@@ -131,6 +143,7 @@ func generateImageDark05(descricao: String) -> String {
                                                 ((("`             (((---~"`         //
                                                                                    ((________________
                                                                                    `----''''~~~~^^^```,
+     
      """
     
 }

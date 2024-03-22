@@ -10,6 +10,7 @@ import Foundation
 func generateImageSynthPopk01(descricao: String) -> String {
     return
             """
+        
         *Kiss*…….*Kiss*
         *Kiss*…..*Kiss*
         *Kiss*…*Kiss*
@@ -59,6 +60,7 @@ func generateImageSynthPopk01(descricao: String) -> String {
 func generateImageSynthPopk02(descricao: String) -> String {
     return
             """
+        
             .__________________________.
             | .___________________. |==|
             | |     Apple ][      | |  |
@@ -80,6 +82,7 @@ func generateImageSynthPopk02(descricao: String) -> String {
         (  [][][][][____________][][][][]  )
          \\ ----------------------------- /
           \\_____________________________/
+        
         """
     
 }
@@ -87,6 +90,7 @@ func generateImageSynthPopk02(descricao: String) -> String {
 func generateImageSynthPopk03(descricao: String) -> String {
     return
             """
+        
          ,_______________________________________,
         /   HHH*                          *HHH   /.
         `---------------------------------------" :
@@ -102,6 +106,7 @@ func generateImageSynthPopk03(descricao: String) -> String {
         |     /     o       0         o   \\    I :
         |+   / O                         O \\  +|,'
         `---------------------------------------
+        
         """
     
 }
@@ -109,6 +114,7 @@ func generateImageSynthPopk03(descricao: String) -> String {
 func generateImageSynthPopk04(descricao: String) -> String {
     return
             """
+        
            |OFFo oON                  |
            | .----------------------. |
            | |  .----------------.  | |
@@ -134,6 +140,7 @@ func generateImageSynthPopk04(descricao: String) -> String {
            |                    ,;:;' /
            |                   ,:;:'.'
            '-----------------------`
+        
         """
     
 }
@@ -141,6 +148,7 @@ func generateImageSynthPopk04(descricao: String) -> String {
 func generateImageSynthPopk05(descricao: String) -> String {
     return
             """
+       
                                          */*
                               *&&&&&&&&&&&&&&&&&&&&&&&,
                           &&&&&&&&.               .&&&&&&&&
@@ -165,6 +173,7 @@ func generateImageSynthPopk05(descricao: String) -> String {
                        &&&&&&                           %&&&&&
                           &&&&&&&&                 &&&&&&&&
                               ,&&&&&&&&&&&&&&&&&&&&&&&.
+       
        """
     
 }

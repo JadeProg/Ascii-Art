@@ -10,6 +10,7 @@ import Foundation
 func generateImageTribal01(descricao: String) -> String {
     return
             """
+        
                                       #
                                      /%/
                                      %%%
@@ -38,6 +39,7 @@ func generateImageTribal01(descricao: String) -> String {
                                     @&&@&
                                      @@@
                                       @
+        
         """
     
 }
@@ -45,6 +47,7 @@ func generateImageTribal01(descricao: String) -> String {
 func generateImageTribal02(descricao: String) -> String {
     return
             """
+        
                                                                           ,   ,
                                                                           $,  $,     ,
                                                                           "ss.$ss. .s'  \(descricao)
@@ -88,6 +91,7 @@ func generateImageTribal02(descricao: String) -> String {
                                       \\)_$$$$$$$$$$$$$$$$$$$$$$$##"  $$        `$$.        `$$.
                                           `"S$$$$$$$$$$$$$$$$$#"      $          `$          `$
                                               `'''''''''''''
+        
         """
     
 }
@@ -95,6 +99,7 @@ func generateImageTribal02(descricao: String) -> String {
 func generateImageTribal03(descricao: String) -> String {
     return
             """
+        
                                 __      _
                             _wr""        "-q__
                          _dP                 9m_
@@ -118,6 +123,7 @@ func generateImageTribal03(descricao: String) -> String {
              .               _d#####^#####m__              ,
               "*w_________am#####P"   ~9#####mw_________w*"
                   ""9@#####@M""           ""P@#####@M""
+        
         """
     
 }
@@ -125,6 +131,7 @@ func generateImageTribal03(descricao: String) -> String {
 func generateImageTribal04(descricao: String) -> String {
     return
             """
+        
                                                .
                                              &
                                            &.     @
@@ -174,6 +181,7 @@ func generateImageTribal04(descricao: String) -> String {
                                             @
                                           @
                                         ,
+        
         """
     
 }
@@ -181,6 +189,7 @@ func generateImageTribal04(descricao: String) -> String {
 func generateImageTribal05(descricao: String) -> String {
     return
             """
+        
                               ,    ,                           (   @
                              (    @                              @   &
                             &.   @                                @   &*
@@ -215,6 +224,7 @@ func generateImageTribal05(descricao: String) -> String {
                                            &            /%
                                             &          #
                                              *        ,
+        
         """
     
 }

@@ -11,6 +11,7 @@ import ArgumentParser
 //......................................................................................
 
 //Essa parte eu considero como o cérebro do código, ou seja, é onde você irá criar várias funcções e comandos para chamá-las no run e executá-las de fato.
+
 @main
 struct myparty: ParsableCommand {
     
@@ -247,3 +248,5 @@ func shell(_ command: String) -> String {
     return output
 }
 /// chamar clear: `shell("clear")`
+
+

@@ -9,6 +9,7 @@ import Foundation
 
 func generateImageHyperfunk01(descricao: String) -> String {
     return  """
+
                 _.._
          __.--"" __ ""--.__
        .'//   .-"  "-.   \\`,
@@ -44,6 +45,7 @@ func generateImageHyperfunk01(descricao: String) -> String {
 }
 func generateImageHyperfunk02(descricao: String) -> String {
     return  """
+
                                     o
                                    $''$o
                                   $"  $$
@@ -68,6 +70,7 @@ o o o o    oo'  o'      'o    $$o$'     o o$''  o$      '$  'oo   o o o o
 
 func generateImageHyperfunk03(descricao: String) -> String {
     return  """
+
                                          ,d''7b.
                                            ,'    ,d^b.
                             __,d'''''''b..d.    d'
@@ -127,11 +130,13 @@ func generateImageHyperfunk04(descricao: String) -> String {
                                   X. 9  `   '  P )X
                                   `b  `       '  d'
                                    `             '
+
 """
 }
 
 func generateImageHyperfunk05(descricao: String) -> String {
     return  """
+
                 .o$$RADIUS###############################################################o.
                 ########################XX///X#############################################
                 #######################XX///////X##########################################

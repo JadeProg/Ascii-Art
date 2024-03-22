@@ -10,6 +10,7 @@ import Foundation
 func generateImageHouse01(descricao: String) -> String {
     return
 """
+
                                #####
                            #######
                 ######    ########       #####
@@ -56,6 +57,7 @@ func generateImageHouse01(descricao: String) -> String {
 func generateImageHouse02(descricao: String) -> String {
     return
 """
+
                         `         '
         ;,,,             `       '             ,,,;
         `YES8888bo.       :     :       .od8888YES'
@@ -106,6 +108,7 @@ func generateImageHouse03(descricao: String) -> String {
 func generateImageHouse04(descricao: String) -> String {
     return
 """
+
                                ___________    ____
                         ______/   |__//   |__|____\\
                       _/   |_|  :           //____\\
@@ -128,6 +131,7 @@ func generateImageHouse04(descricao: String) -> String {
 func generateImageHouse05(descricao: String) -> String {
     return
 """
+
         =:~-._                                                 _.-~:
         : :.~^o._        ________---------________        _.o^~.:.:
          : ::.`?88booo~~~.::::::::...::::::::::::..~~oood88P'.::.:
@@ -151,5 +155,6 @@ func generateImageHouse05(descricao: String) -> String {
               ~~   __..---`_=:: ___gd8bg___ :==_'---..__   ~~
                -~~~  _.--~~`-.~~~~~~~~~~~~~~~,-' ~~--._ ~~~-
                   -~~            ~~~~~~~~~   _      _  ~~-
+
 """
 }
