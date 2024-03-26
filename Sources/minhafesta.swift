@@ -124,6 +124,8 @@ struct myparty: ParsableCommand {
     //. OBS: É obrigatório usar um & sempre que for colocado "inout" do lado da tipagem da variável.
     mutating func run() throws {
         
+        print(welcome())
+        
         if titulo == nil {
             interation(questao: "Qual o nome da festa?", resposta: &titulo)
             shell("clear")

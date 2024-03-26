@@ -34,7 +34,7 @@ func generateImageTribal01(descricao: String) -> String {
          *%&@@@#*                  /%%&&%/                  *%@@&@&*
                                  .@&%#%%%%@.
                                   @@%%%&%@@
-                                   &@%%%@@  ✴.·´¯`·.·★ \(descricao) ✴.·´¯`·.·★
+                                   &@%%%@@  ✴.·.·★ \(descricao) ✴.·.·★
                                    ,@&%&@,
                                     @&&@&
                                      @@@
@@ -138,7 +138,7 @@ func generateImageTribal04(descricao: String) -> String {
                                          &&     %%
                                         &&     @@
                                        &&     @@
-                                      %&&    ,@@  ♩·.¸¸.·♩♪♫ \(descricao) ░░░▒▒▓█
+                                      %&&    ,@@  ♩·♩♪♫ \(descricao) ░░░▒▒▓█
                                       &&     @@@
                                       &&     %@@
                                       &&      @@
