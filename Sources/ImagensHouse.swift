@@ -26,9 +26,9 @@ func generateImageHouse01(descricao: String) -> String {
                               $$$$$        #
                               $$$$$
                               $$$$$
-                              $$$$$
+                              $$$$$     * 　.　 　★
                               $$$$$ \(descricao)
-                             $$$$$
+                             $$$$$      * • ○ ° ★
                              $$$$$
                              $$$$$
                              $$$$$
@@ -55,8 +55,8 @@ func generateImageHouse01(descricao: String) -> String {
 }
 
 func generateImageHouse02(descricao: String) -> String {
-    return
-"""
+  
+    let desenho = """
 
                         `         '
         ;,,,             `       '             ,,,;
@@ -75,9 +75,12 @@ func generateImageHouse02(descricao: String) -> String {
                '! THEE888'       `888THEE !'
                   '8Y  `Y         Y'  Y8'
                    Y                   Y
-                   !    \(descricao)   !
+                   !XXXXXXXXXXXXXXXXXXX!
 
 """
+    
+    return substituir(desenho: desenho, descricao: descricao, placeholder: "XXXXXXXXXXXXXXXXXXX")
+    
 }
 
 func generateImageHouse03(descricao: String) -> String {
@@ -88,7 +91,7 @@ func generateImageHouse03(descricao: String) -> String {
                            //
                           //
                          //
-                  _______|| \(descricao)
+                  _______|| \(descricao)  * • ○ ° ★
              ,-'''       ||`-.
             (            ||   )
             |`-..._______,..-'|
@@ -115,7 +118,7 @@ func generateImageHouse04(descricao: String) -> String {
                      /|      :  :  ..     //        \\
                     | |     ::     ::     \\        //
                     | |     :|     ||      \\______//
-                    | |     ||     ||      ||  |  |   \(descricao)
+                    | |     ||     ||      ||  |  |   \(descricao)  ೋ•✧๑♡๑✧•ೋ
                     \\|     ||     ||      |  // | \\
                       |     ||     ||      | // |_| \\
                       | ___ || ___ ||      |//  //   \\
@@ -132,6 +135,7 @@ func generateImageHouse05(descricao: String) -> String {
     return
 """
 
+                  ♥«´¨`•♥«´¨`• \(descricao) ‧˚❤ ‧˚₊‧˚₊‧˚₊‧
         =:~-._                                                 _.-~:
         : :.~^o._        ________---------________        _.o^~.:.:
          : ::.`?88booo~~~.::::::::...::::::::::::..~~oood88P'.::.:
@@ -139,7 +143,7 @@ func generateImageHouse05(descricao: String) -> String {
           :  :::. `? .::.            . ...........:::. P' .:::. :
            :  :::   ... ..  ...       .. .::::......::.   :::. :
            `  :' .... ..  .:::::.     . ..:::::::....:::.  `: .'
-            :..    ____:::::::::.  . . ....:::::::::____  ... : \(descricao)
+            :..    ____:::::::::.  . . ....:::::::::____  ... :
            :... `:~    ^~-:::::..  .........:::::-~^    ~::.::::
            `.::. `\\  (8) \\b:::..::.:.:::::::d/  (8)  //'.::::'
             ::::.  ~-._v    |b.::::::::::::::d|    v_.-~..:::::

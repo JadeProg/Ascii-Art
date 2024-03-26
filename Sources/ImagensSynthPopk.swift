@@ -52,21 +52,21 @@ func generateImageSynthPopk01(descricao: String) -> String {
         …*Kiss*…*Kiss*
         ………*Kiss
         
-        \(descricao)
+        \(descricao) ¸¸♫·¯·♪¸♩·¯·♬¸¸
         """
     
 }
 
 func generateImageSynthPopk02(descricao: String) -> String {
-    return
-            """
+    
+    let desenho = """
         
             .__________________________.
             | .___________________. |==|
-            | |     Apple ][      | |  |
+            | |      Apple ][     | |  |
             | |                   | |  |
             | |                   | |  |
-            | |   \(descricao)    | |  |
+            | |XXXXXXXXXXXXXXXXXXX| |  |
             | |                   | |  |
             | |                   | |  |
             | | ]                 | | ,|
@@ -84,12 +84,14 @@ func generateImageSynthPopk02(descricao: String) -> String {
           \\_____________________________/
         
         """
+
+    return substituir(desenho: desenho, descricao: descricao, placeholder: "XXXXXXXXXXXXXXXXXXX")
     
 }
 
 func generateImageSynthPopk03(descricao: String) -> String {
-    return
-            """
+    
+    let desenho = """
         
          ,_______________________________________,
         /   HHH*                          *HHH   /.
@@ -99,8 +101,8 @@ func generateImageSynthPopk03(descricao: String) -> String {
         |       .++.  |######\\ /##|  .++.      | :
         |       +  +  |######/  \\#|  +  +      | :
         |       '++'  '------------'  '++'      | :
-        |              \(descricao)             | :
         |                                       | :
+        |XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX| :
         |                                       | :
         |      /'''''''''''''''''''''''''\\     I :
         |     /     o       0         o   \\    I :
@@ -108,12 +110,14 @@ func generateImageSynthPopk03(descricao: String) -> String {
         `---------------------------------------
         
         """
-    
+   
+    return substituir(desenho: desenho, descricao: descricao, placeholder: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+
 }
 
 func generateImageSynthPopk04(descricao: String) -> String {
-    return
-            """
+    
+    let desenho = """
         
            |OFFo oON                  |
            | .----------------------. |
@@ -121,7 +125,7 @@ func generateImageSynthPopk04(descricao: String) -> String {
            | |  |                |  | |
            | |))|                |  | |
            | |  |                |  | |
-           | |  |  \(descricao)  |  | |
+           | |  |XXXXXXXXXXXXXXXX|  | |
            | |  |                |  | |
            | |  |                |  | |
            | |  |                |  | |
@@ -143,11 +147,13 @@ func generateImageSynthPopk04(descricao: String) -> String {
         
         """
     
+    return substituir(desenho: desenho, descricao: descricao, placeholder: "XXXXXXXXXXXXXXXX")
+    
 }
 
 func generateImageSynthPopk05(descricao: String) -> String {
-    return
-            """
+    
+    let desenho = """
        
                                          */*
                               *&&&&&&&&&&&&&&&&&&&&&&&,
@@ -168,12 +174,43 @@ func generateImageSynthPopk05(descricao: String) -> String {
               &&&&           &&&&                      &&&&&&      &&&&
                &&&&                                     &&&&&%    &&&&
                 ,&&&&                                     &&&   @&&&
-                  &&&&&             \(descricao)              &&&&&
+                  &&&&&           XXXXXXXXXXXXXXXXX           &&&&&
                     &&&&&                                   &&&&&
                        &&&&&&                           %&&&&&
                           &&&&&&&&                 &&&&&&&&
                               ,&&&&&&&&&&&&&&&&&&&&&&&.
        
        """
+    
+    return substituir(desenho: desenho, descricao: descricao, placeholder: "XXXXXXXXXXXXXXXXX")
+    
+}
+
+// FUNCCAO DE SUBSTITUICAO NO DESENHO
+func substituir(desenho: String, descricao: String, placeholder: String) -> String {
+    
+    var descricao = descricao
+    
+    let diff = placeholder.count - descricao.count // 9
+    
+    if diff > 0 {
+        // inserir espaços no inicio
+        for i in (0...diff/2) {
+            descricao.insert(" ", at: descricao.startIndex)
+        }
+        // inserir espaços no finm
+        for i in (0...diff/2) {
+            descricao.append(" ")
+        }
+        if diff.isMultiple(of: 2) == false {
+            descricao.append(" ")
+        }
+    } else {
+        // caso queira parar execução quand o limite for maior
+        print("A descrição tem \(descricao.count) caracteres, que é mais do que cabe na ascii art. Execute novamente o programa e insira uma descrição de no máximo \(placeholder.count) caracteres para esse estilo.")
+        exit(0)
+    }
+    
+    return desenho.replacingOccurrences(of: placeholder, with: descricao)
     
 }

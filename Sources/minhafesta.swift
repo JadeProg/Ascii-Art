@@ -68,7 +68,16 @@ struct myparty: ParsableCommand {
     func generationImage(descricao: String, styles: String) {
         let imagesArray = generetionArrayImagens(descricao: descricao, estilo: styles) // trocar "1" por styles
         let randomNumber = Int.random(in: 0...(imagesArray.count - 1))
-        print(imagesArray[randomNumber])
+        let randomImage = imagesArray[randomNumber]
+        let lines = randomImage.components(separatedBy: "\n")
+        let delayTime = 0.1
+        Task {
+            for line in lines {
+                print(line)
+                try? await Task.sleep(for: .seconds(delayTime))
+            }
+        }
+        RunLoop.main.run(until: Date.now.advanced(by: (Double(lines.count) + 1.0) * delayTime))
     }
     //......................................................................................................
     

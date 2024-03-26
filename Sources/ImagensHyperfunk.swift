@@ -8,7 +8,8 @@
 import Foundation
 
 func generateImageHyperfunk01(descricao: String) -> String {
-    return  """
+    
+    let desenho = """
 
                 _.._
          __.--"" __ ""--.__
@@ -20,7 +21,7 @@ func generateImageHyperfunk01(descricao: String) -> String {
     `j | :.--------------.: | |
      ; ; |                | : :
      ; ; |                | : :
-     | | |\(descricao)    | | |
+     | | |XXXXXXXXXXXXXXXX| | |
      | | |                | | |
      : : |                | ; ;
      : : :________________: ; ;
@@ -42,9 +43,13 @@ func generateImageHyperfunk01(descricao: String) -> String {
              ''''''''''
             
 """
+    
+    return substituir(desenho: desenho, descricao: descricao, placeholder: "XXXXXXXXXXXXXXXX")
+    
 }
 func generateImageHyperfunk02(descricao: String) -> String {
-    return  """
+    
+    let desenho = """
 
                                     o
                                    $''$o
@@ -63,9 +68,12 @@ o o o o    oo'  o'      'o    $$o$'     o o$''  o$      '$  'oo   o o o o
           '$$$$'$$$$' $$$$$$$'$$$$$$ ' '$$$$$'$$$$$$'  $$$''$$$$
            $$$oo$$$$   $$$$$$o$$$$$$o' $$$$$$$$$$$$$$ o$$$$o$$$'
            $'''''''''''''''''''''''''''''''''''''''''''''''''''$
-           $'\(descricao)                                     '$
+           $'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'$
             
 """
+    
+    return substituir(desenho: desenho, descricao: descricao, placeholder: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
+    
 }
 
 func generateImageHyperfunk03(descricao: String) -> String {
@@ -102,17 +110,18 @@ func generateImageHyperfunk03(descricao: String) -> String {
            `7.                           ______________,d''
              `7b.                     ,d''
                 `7b..             _,d''    \(descricao)
-                     '''--....-''''
+                     '''--....-''''         ╭∩╮(-_-)╭∩╮
             
 """
 }
 
 func generateImageHyperfunk04(descricao: String) -> String {
-    return """
+    
+    let desenho = """
 
             .n                   .                 .                  n.
       .   .dP                  dP                   9b                 9b.    .
-     4    qXb         .       dX\(descricao)          Xb       .        dXp     t
+     4    qXb         .       d   XXXXXXXXXXXXXXXXX   Xb       .        dXp     t
     dX.    9Xb      .dXb    __                         __    dXb.     dXP     .Xb
     9XXb._       _.dXXXXb dXXXXbo.                 .odXXXXb dXXXXb._       _.dXXP
      9XXXXXXXXXXXXXXXXXXXVXXXXXXXXOo.           .oOXXXXXXXXVXXXXXXXXXXXXXXXXXXXP
@@ -132,15 +141,19 @@ func generateImageHyperfunk04(descricao: String) -> String {
                                    `             '
 
 """
+    
+    return substituir(desenho: desenho, descricao: descricao, placeholder: "XXXXXXXXXXXXXXXXX")
+
 }
 
 func generateImageHyperfunk05(descricao: String) -> String {
-    return  """
+    
+    let desenho = """
 
                 .o$$RADIUS###############################################################o.
                 ########################XX///X#############################################
                 #######################XX///////X##########################################
-                #####################"#P-------Y#"#############\(descricao)################
+                #####################"#P-------Y#"#############XXXXXXXXXXXXXXXXX###########
                 ####################( #"^##P"##.# )########################################
                 #####################.#b.  .b .d#.#########################################
                 #######################"b.---.d##.:%0######################################
@@ -164,4 +177,7 @@ func generateImageHyperfunk05(descricao: String) -> String {
                 '^#######################################################################^'
             
 """
+    
+    return substituir(desenho: desenho, descricao: descricao, placeholder: "XXXXXXXXXXXXXXXXX")
+
 }

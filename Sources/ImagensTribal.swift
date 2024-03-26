@@ -34,7 +34,7 @@ func generateImageTribal01(descricao: String) -> String {
          *%&@@@#*                  /%%&&%/                  *%@@&@&*
                                  .@&%#%%%%@.
                                   @@%%%&%@@
-                                   &@%%%@@  \(descricao)
+                                   &@%%%@@  ✴.·´¯`·.·★ \(descricao) ✴.·´¯`·.·★
                                    ,@&%&@,
                                     @&&@&
                                      @@@
@@ -51,7 +51,7 @@ func generateImageTribal02(descricao: String) -> String {
                                                                           ,   ,
                                                                           $,  $,     ,
                                                                           "ss.$ss. .s'  \(descricao)
-                                                                  ,     .ss$$$$$$$$$$s,
+                                                                  ,     .ss$$$$$$$$$$s,  ✴.·´¯`·.·★
                                                                   $. s$$$$$$$$$$$$$$`$$Ss
                                                                   "$$$$$$$$$$$$$$$$$$o$$$       ,
                                                                  s$$$$$$$$$$$$$$$$$$$$$$$$s,  ,s
@@ -79,7 +79,7 @@ func generateImageTribal02(descricao: String) -> String {
                                                 $$$$$$$$$$$$#####"     $, .s$$$$$$$$$$$$$$$$$$$$$$$$s.
                                      )          $$$$$$$$$$$#####'      `$$$$$$$$$###########$$$$$$$$$$$.
                                     ((          $$$$$$$$$$$#####       $$$$$$$$###"       "####$$$$$$$$$$
-                                    ) \\        $$$$$$$$$$$$####.     $$$$$$###"             "###$$$$$$$$$   s'
+                                    ) \\        $$$$$$$$$$$$####.     $$$$$$###"                 "###$$$$$$$$$s'
                                    (   )        $$$$$$$$$$$$$####.   $$$$$###"                ####$$$$$$$$s$$'
                                    )  ( (       $$"$$$$$$$$$$$#####.$$$$$###'                .###$$$$$$$$$$"
                                    (  )  )   _,$"   $$$$$$$$$$$$######.$$##'                .###$$$$$$$$$$
@@ -106,9 +106,9 @@ func generateImageTribal03(descricao: String) -> String {
                        _#P                     9#_
                       d#@                       9#m
                      d##                         ###
-                    J###                         ###L
+                    J###                         ###L    ｡ﾟ.*･━☆ﾟ╰
                     {###K                       J###K   \(descricao)
-                    ]####K      ___aaa___      J####F
+                    ]####K      ___aaa___      J####F     ｡ﾟ.*･━☆ﾟ╰
                 __gmM######_  w#P""   ""9#m  _d#####Mmw__
              _g##############mZ_         __g##############m_
            _d####M@PPPP@@M#######Mmp gm#########@@PPP9@M####m_
@@ -138,7 +138,7 @@ func generateImageTribal04(descricao: String) -> String {
                                          &&     %%
                                         &&     @@
                                        &&     @@
-                                      %&&    ,@@  \(descricao)
+                                      %&&    ,@@  ♩·.¸¸.·♩♪♫ \(descricao) ░░░▒▒▓█
                                       &&     @@@
                                       &&     %@@
                                       &&      @@
@@ -187,14 +187,14 @@ func generateImageTribal04(descricao: String) -> String {
 }
 
 func generateImageTribal05(descricao: String) -> String {
-    return
-            """
+    
+    let desenho = """
         
                               ,    ,                           (   @
                              (    @                              @   &
                             &.   @                                @   &*
                            @/   &                                  @.  (%
-                          @@   @@ \(descricao)                     (@   %&
+                          @@   @@XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX(@   %&
                          &@    &%                                  ,@/   @@
                         .&&   %@@                                  (&&   .&.
                         &&.   @@&                                  @@#    &@
@@ -226,5 +226,7 @@ func generateImageTribal05(descricao: String) -> String {
                                              *        ,
         
         """
+    
+    return substituir(desenho: desenho, descricao: descricao, placeholder: "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX")
     
 }

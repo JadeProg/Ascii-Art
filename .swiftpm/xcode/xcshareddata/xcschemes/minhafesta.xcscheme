@@ -51,7 +51,7 @@
       </BuildableProductRunnable>
       <CommandLineArguments>
          <CommandLineArgument
-            argument = "myparty --style &quot; --titulo &quot;wdjhw&quot; --data &quot;qsgq&quot; --horario &quot;qhhsq&quot; --local &quot;dd&quot; --dj &quot;dd&quot; --descricao &quot;aa&quot;"
+            argument = "--style &quot;&quot; --titulo &quot;&quot; --data &quot;&quot; --horario &quot;&quot; --local &quot;&quot; --dj &quot;&quot; --descricao &quot;&quot;"
             isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
@@ -59,7 +59,7 @@
             isEnabled = "NO">
          </CommandLineArgument>
          <CommandLineArgument
-            argument = "myparty --style &lt;style&gt; --titulo &lt;titulo&gt; --data &lt;data&gt; --horario &lt;horario&gt; --local &lt;local&gt; --dj &lt;dj&gt; --descricao &lt;descricao&gt; [--verbose]"
+            argument = "--style &lt;style&gt; --titulo &lt;titulo&gt; --data &lt;data&gt; --horario &lt;horario&gt; --local &lt;local&gt; --dj &lt;dj&gt; --descricao &lt;descricao&gt; [--verbose]"
             isEnabled = "NO">
          </CommandLineArgument>
       </CommandLineArguments>
